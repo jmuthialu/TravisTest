@@ -13,7 +13,7 @@
 		DC2A45D11BE9041C00E1FE9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC2A45D01BE9041C00E1FE9A /* Assets.xcassets */; };
 		DC2A45D41BE9041C00E1FE9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2A45D21BE9041C00E1FE9A /* LaunchScreen.storyboard */; };
 		DC2A45DF1BE9041D00E1FE9A /* TravisTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A45DE1BE9041D00E1FE9A /* TravisTestTests.swift */; };
-		DC2A45EA1BE9041D00E1FE9A /* TravisTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A45E91BE9041D00E1FE9A /* TravisTestUITests.swift */; };
+		DC2A45F91BE9088000E1FE9A /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = DC2A45F81BE9088000E1FE9A /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +45,7 @@
 		DC2A45DE1BE9041D00E1FE9A /* TravisTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravisTestTests.swift; sourceTree = "<group>"; };
 		DC2A45E01BE9041D00E1FE9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC2A45E51BE9041D00E1FE9A /* TravisTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC2A45E91BE9041D00E1FE9A /* TravisTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravisTestUITests.swift; sourceTree = "<group>"; };
-		DC2A45EB1BE9041D00E1FE9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2A45F81BE9088000E1FE9A /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +79,6 @@
 				DC2A45F71BE9047E00E1FE9A /* Travis */,
 				DC2A45C81BE9041C00E1FE9A /* TravisTest */,
 				DC2A45DD1BE9041D00E1FE9A /* TravisTestTests */,
-				DC2A45E81BE9041D00E1FE9A /* TravisTestUITests */,
 				DC2A45C71BE9041C00E1FE9A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,18 +115,10 @@
 			path = TravisTestTests;
 			sourceTree = "<group>";
 		};
-		DC2A45E81BE9041D00E1FE9A /* TravisTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DC2A45E91BE9041D00E1FE9A /* TravisTestUITests.swift */,
-				DC2A45EB1BE9041D00E1FE9A /* Info.plist */,
-			);
-			path = TravisTestUITests;
-			sourceTree = "<group>";
-		};
 		DC2A45F71BE9047E00E1FE9A /* Travis */ = {
 			isa = PBXGroup;
 			children = (
+				DC2A45F81BE9088000E1FE9A /* .travis.yml */,
 			);
 			name = Travis;
 			sourceTree = "<group>";
@@ -242,6 +232,7 @@
 			files = (
 				DC2A45D41BE9041C00E1FE9A /* LaunchScreen.storyboard in Resources */,
 				DC2A45D11BE9041C00E1FE9A /* Assets.xcassets in Resources */,
+				DC2A45F91BE9088000E1FE9A /* .travis.yml in Resources */,
 				DC2A45CF1BE9041C00E1FE9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC2A45EA1BE9041D00E1FE9A /* TravisTestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +491,7 @@
 				DC2A45F01BE9041D00E1FE9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC2A45F11BE9041D00E1FE9A /* Build configuration list for PBXNativeTarget "TravisTestTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +500,7 @@
 				DC2A45F31BE9041D00E1FE9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC2A45F41BE9041D00E1FE9A /* Build configuration list for PBXNativeTarget "TravisTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +509,7 @@
 				DC2A45F61BE9041D00E1FE9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
