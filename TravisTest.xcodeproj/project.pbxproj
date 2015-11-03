@@ -77,6 +77,7 @@
 		DC2A45BD1BE9041C00E1FE9A = {
 			isa = PBXGroup;
 			children = (
+				DC2A45F71BE9047E00E1FE9A /* Travis */,
 				DC2A45C81BE9041C00E1FE9A /* TravisTest */,
 				DC2A45DD1BE9041D00E1FE9A /* TravisTestTests */,
 				DC2A45E81BE9041D00E1FE9A /* TravisTestUITests */,
@@ -123,6 +124,13 @@
 				DC2A45EB1BE9041D00E1FE9A /* Info.plist */,
 			);
 			path = TravisTestUITests;
+			sourceTree = "<group>";
+		};
+		DC2A45F71BE9047E00E1FE9A /* Travis */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Travis;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +201,7 @@
 				TargetAttributes = {
 					DC2A45C51BE9041C00E1FE9A = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 9YA6DWUYUB;
+						DevelopmentTeam = QP8Z378EKD;
 					};
 					DC2A45D91BE9041D00E1FE9A = {
 						CreatedOnToolsVersion = 7.1;
@@ -402,10 +410,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TravisTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NexTraq.TravisTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -413,10 +424,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TravisTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NexTraq.TravisTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
